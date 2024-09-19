@@ -28,4 +28,21 @@
         android:id="@+id/edadEdit"
         android:inputType="number"/>
 
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:id="@+id/btnCalc"
+        />
+
 </LinearLayout>
