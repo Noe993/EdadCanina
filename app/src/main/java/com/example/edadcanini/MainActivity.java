@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -32,8 +33,9 @@ public class MainActivity extends AppCompatActivity {
                     int resultado = edadint * 7;
                     String resultadoString = "La edad del perruno es" + resultado;
                     resultText.setText(resultadoString);
+                }else{
+                    Toast.makeText(MainActivity.this, "Pongale texto chamaco",Toast.LENGTH_LONG).show();
                 }
-
             }
         });
     }
